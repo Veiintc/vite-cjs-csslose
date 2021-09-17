@@ -1,5 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <div>
+    <router-link to="/">red</router-link> |
+    <router-link to="/b">blue</router-link> |
+    <router-link to="/c">green</router-link>
+  </div>
   <router-view></router-view>
 </template>
 
